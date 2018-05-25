@@ -1,5 +1,15 @@
 -
     id: 1
+    name: Official Bitcoin Private
+    url: 'https://btcprivate.org'
+    featured: true
+-
+    id: 1
+    name: BTCPPay
+    url: 'https://btcppay.com'
+    featured: true
+-
+    id: 1
     name: MyCrypto
     url: 'https://mycrypto.com'
     featured: true

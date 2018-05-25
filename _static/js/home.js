@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
 	$("#github").click(function() {
-		window.open('https://github.com/MrLuit/EtherScamDB');
+		window.open('https://github.com/ch4ot1c/BitcoinPrivateScamDB');
 	});
 	$("#scams").click(function() {
 		window.open('/scams');
@@ -9,6 +9,6 @@ window.addEventListener("load", function() {
 		window.open('/report');
 	});
 	$("#donate").click(function() {
-		window.open('https://etherscan.io/address/etherscamdb.eth');
+		window.open('https://explorer.btcprivate.org/address/b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe');
 	});
 });

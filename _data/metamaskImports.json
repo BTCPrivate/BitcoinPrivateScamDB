@@ -2,6 +2,8 @@
   "version": 2,
   "tolerance": 2,
   "fuzzylist": [
+    "btcprivate.org",
+    "btcppay.com",
     "metamask.io",
     "myetherwallet.com",
     "cryptokitties.co",

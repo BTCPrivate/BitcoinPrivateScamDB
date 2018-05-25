@@ -5,8 +5,8 @@ module.exports = {
     "Github_Hook_Secret": null,
     "Urlscan_API_Key": null,
     "repository": {
-        author: "MrLuit",
-        name: "EtherScamDB",
+        author: "BTCPrivate",
+        name: "BitcoinPrivateScamDB",
         branch: "master"
     }
 };

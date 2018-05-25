@@ -1,5 +1,5 @@
 {
-  "name": "ethereum-scam-database",
+  "name": "bitcoin-private-scam-database",
   "version": "1.0.0",
   "main": "generate.js",
   "dependencies": {

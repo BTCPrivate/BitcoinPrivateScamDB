@@ -5,13 +5,13 @@
 <b>USD Value</b>: <span id="value">loading...</span><BR>
 <b>Related to the following scams</b>: {{ address.scams }}
 <div class="ui divider"></div>
-<a target="_blank" href="https://etherscan.io/address/{{ address.address }}"><i class="external icon"></i> View address on etherscan</a><BR>
+<a target="_blank" href="https://explorer.btcprivate.org/address/{{ address.address }}"><i class="external icon"></i> View address on BTCPrivate.org</a><BR>
 
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "http://etherscan.io/address/{{ address.address }}#disqus";
-this.page.identifier = "Etherscan_{{ address.address }}";
+this.page.url = "http://btcprivate.org/address/{{ address.address }}#disqus";
+this.page.identifier = "BTCPrivate_{{ address.address }}";
 };
 (function() {
 var d = document, s = d.createElement('script');

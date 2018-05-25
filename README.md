@@ -1,16 +1,18 @@
-# Ethereum Scam Database
+# Bitcoin Private Scam Database
 
-*An open-source database to keep track of all the current ethereum scams*
+### Originally by [MrLuit](https://github.com/MrLuit/EtherScamDB)
+
+*An open-source database to keep track of all the current Bitcoin Private scams*
 
 ## Usage
 
 Make sure you have both [Node.JS](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) installed.
 
-Rename `config.exmaple.js` to `config.js` and replace the placeholders with your keys.
+Rename `config.example.js` to `config.js` and replace the placeholders with your keys.
 
 Then, open a command line anywhere and run the following commands:
 
-> git clone https://github.com/MrLuit/EtherScamDB.git
+> git clone https://github.com/ch4ot1c/BitcoinPrivateScamDB
 
 > npm install
 
@@ -37,12 +39,12 @@ Fork this project and edit `_data/data.yaml`. Every item can have the following 
 - **description**: A full description for the scam **(Optional)**
 - **url**: The protocol + hostname for a scam website, without a trailing `/` **(Optional)**
 - **category**: The category under which the item falls **(Optional)**
-- **addresses**: An array of all ethereum addresses that were involved in this scam, with leading '0x'  **(Optional)**
+- **addresses**: An array of all BTCP addresses that were involved in this scam  **(Optional)**
 
 ## API
 
-To make use of our database, the following API can be used: https://etherscamdb.info/api/
+To make use of our database, the following API can be used: https://scams.btcprivate.org/api/
 
 ## Donate
 
-If you would like to help without contributing on GitHub yourself you can send some ETH or ERC20 tokens to [etherscamdb.eth](https://etherscan.io/address/etherscamdb.eth) :clap:
+If you would like to help without contributing on GitHub yourself, you can send some BTCP to [b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe](https://explorer.btcprivate.org/address/b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe) or [zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4](https://explorer.btcprivate.org/address/zkEyLYc45LdNmzjJ84aGFAJ8CW959FCARYNso64SPmzymozageLS9YJ6HKbHSoqjXsV7bjrDEzXVLnMQtUCTeETKehPDPU4):clap:

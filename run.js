@@ -79,7 +79,10 @@ function generateAbuseReport(scam) {
     } else {
         abusereport += ".";
     }
-    if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
+
+    if ('subcategory' in scam && scam.subcategory == "BTCPrivate") {
+        abusereport += "The domain is impersonating BTCPrivate.org, the official website of Bitcoin Private (a cryptocurrency like Bitcoin).";
+    } else if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
         abusereport += "The domain is impersonating MyEtherWallet.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
     } else if ('subcategory' in scam && scam.subcategory == "MyCrypto") {
         abusereport += "The domain is impersonating MyCrypto.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
