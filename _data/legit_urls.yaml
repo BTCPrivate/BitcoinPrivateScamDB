@@ -1,13 +1,4 @@
--
-    id: 1
-    name: Official Bitcoin Private
-    url: 'https://btcprivate.org'
-    featured: true
--
-    id: 1
-    name: BTCPPay
-    url: 'https://btcppay.com'
-    featured: true
+
 -
     id: 1
     name: MyCrypto
@@ -366,3 +357,13 @@
     id: 82
     name: MyEtherWallet
     url: 'https://www.myetherwallet.com'
+-
+    id: 83
+    name: Bitcoin Private
+    url: 'https://btcprivate.org'
+    featured: true
+-
+    id: 84
+    name: BTCPPay
+    url: 'https://btcppay.com'
+    featured: true
