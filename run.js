@@ -451,7 +451,7 @@ function startWebServer() {
                 method: 'POST',
                 json: {
                     client: {
-                        clientId: "Ethereum Scam Database",
+                        clientId: "Bitcoin Private Scam Database",
                         clientVersion: "1.0.0"
                     },
                     threatInfo: {
